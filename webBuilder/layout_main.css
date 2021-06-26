@@ -1,0 +1,51 @@
+﻿@charset "utf-8";
+/* Main Layout */
+#painterNav ul {
+	width:620px;
+	padding-left:10px;
+	}
+#painterNav ul li {
+	float:left;
+	padding:5px;
+	width:12%;
+	}
+#painterNav ul li a:hover,  #painterNav ul li a.activeStyle {
+	background:#666;
+	color:#fff;
+	}
+	
+#paintingList {
+	clear:both;
+	padding:50px 0px;
+	}
+	
+#paintingList dl {
+	float:left;
+	width:200px;
+	text-align:center;
+	padding:15px 5px;
+	}
+#paintingList dt {
+	border-top-left-radius: 30px;
+	background-color:#333;
+	color: #fff;
+	padding: 5px 0px;
+}
+#paintingList dd a img {
+	opacity: 0.7;
+}
+#paintingList dd a:hover img {
+	opacity: 1.0;
+}
+h2.titleBg {
+	background:url(../images/left_line.png) no-repeat left center;
+	font-size:2em;
+	letter-spacing:-1px;
+	clear:both;
+	}
+h2.titleBg span {
+	display:block;
+	background:url(../images/right_line.png) no-repeat right center;
+	padding:10px 0px;
+	text-align:center;
+	}

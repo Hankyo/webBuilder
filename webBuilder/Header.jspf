@@ -1,0 +1,27 @@
+		<%@page pageEncoding="euc-kr"%>
+	<body link = "Black" text = "black" vlink = "black" alink = "black" bgcolor = "ivory">
+		<table align = "center" width = 852 border = 0>
+			<tbody>
+			<tr>
+				<td>
+					<table align = "center" width = 852 border = 0 bgcolor = "Orange">
+					<tr>
+						<td bgcolor = "Orange" align = "center" colspan = 2>
+						<h1><font color = "white">Threadic! Image Link Bank!</font></h1></td>
+					</tr>
+					<tr>
+						<td width = 300 align = "center">
+							<a href = "./index.jsp"><span style="text-decoration : none; color:white;Font-size:20pt">
+							Main</span></a></td>
+						<td align = "center">
+							<a href = "./ListBoard.jsp"><span style="text-decoration : none; color:white;Font-size:20pt">
+							Image Board</span></a></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr><td></td></tr>
+			<tr><td></td></tr>
+			<tr><td>
+			<!-- Page Start -->
+

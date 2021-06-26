@@ -1,0 +1,140 @@
+﻿@charset "utf-8";
+/* Subpage Layout */
+#subContents h2 {
+	font-size:2em;
+	background:url(../images/deco.png) no-repeat 20px top;
+	height:80px;
+	padding:20px 0px 5px 90px;
+	}
+p.location {
+	padding:30px 5px 10px 0px;
+	font-size:1.1em;
+	text-align:right;
+	border-bottom:1px dashed #666;
+	}
+	/* sub_painting  */
+dl.pictureBox {
+	padding:20px 10px 50px 10px;
+	background-color:#e52d83;
+	width:90%;
+	margin:0 auto;
+	}
+dl.pictureBox dt {
+	padding-right:30px;
+	padding-bottom:10px;
+	font-size:0.95em;
+	letter-spacing:-1px;
+	text-align:right;
+	color:#fff;
+	}
+dl.pictureBox dd {
+	padding-bottom:50px;
+	text-align:center;
+	}
+dl.pictureBox dd img {
+	border:10px solid #fff;
+	}
+	
+/* Paragraph Design */
+p.subPStyle {
+	line-height:150%;
+	width:90%;
+	margin:30px auto;
+	text-align:justify;
+	}
+p.subPStyle:first-letter {
+	font-size:2em;
+	}
+p.pScribStyle {
+	text-align:right;
+	border-bottom:1px dashed #666;
+	border-top:1px dashed #666;
+	padding:5px 10px;
+	width:90%;
+	margin:0 auto;
+	}
+	
+		/* Sub Page Navigation */
+#pageNav ul {
+	padding:50px 30px 30px 0px;
+	text-align:right;
+	}
+#pageNav ul li {
+	display:inline;
+	padding:2px;
+	}
+#pageNav ul li a {
+	background-color:#000;
+	color:#fff;
+	padding:5px;
+	font-weight:bold;
+	font-size:1.2em;
+	}
+#pageNav ul li:last-child a {
+	background-color:#ebebeb;
+	color:#000;
+	padding:5px 10px;
+	}
+#pageNav ul li a:hover {
+	background-color:#f00;
+	}
+	
+	/* sub_artest  */
+#painterNav ul {
+	width:620px;
+	padding-left:10px;
+	}
+#painterNav ul li {
+	float:left;
+	padding:5px;
+	width:12%;
+	}
+#painterNav ul li a:hover,  #painterNav ul li a.activeStyle {
+	background:#666;
+	color:#fff;
+	}
+h2.lineStyle { 
+	border-top:1px dashed #666;
+	clear:both;
+	}
+dl.artestBox {
+	float:left; 
+	width:35%; 
+	margin:40px 10px 10px 55px; 
+	background-color:#000; 
+	padding:10px 15px 20px 15px
+	}
+dl.artestBox dt {
+	color:#fff; 
+	padding-bottom:10px;
+	font-size:0.9em;
+	line-height:120%;
+	}
+dl.artestBox dd {
+	text-align:center; 
+	}
+	
+	/* sub_history */
+	h3.centerStyle {
+	text-align:center; 
+	padding-top:30px;
+	}
+ol.tableStyle {
+	display:table;
+	border-collapse:collapse;
+	margin:20px auto 0px auto;
+	}
+ol.tableStyle li {
+	display:table-cell;
+	padding:10px 0px;
+ 	border:1px solid #000;
+	text-align:center;
+	width:130px;
+	background-color:#e7e7e7;
+	}
+ol.tableStyle li:hover {
+	background-color:#666;
+	}
+ol.tableStyle li:hover a {
+	color:#fff;
+	}

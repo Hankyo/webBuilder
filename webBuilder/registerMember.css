@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+			/*회원가입양식테이블*/
+			.tdwhite{
+				background-color:#FFFFFF; 
+				padding-left:20px; 
+				padding-top:10px; 
+				padding-bottom:10px;  
+				border-bottom:1px solid #B6B6B6; 
+				width:85%;
+				}
+			.tdgray{
+				padding-top:20px; 
+				padding-left:10px; 
+				font-weight:bold; 
+			    background-color:#ededed; 
+			    border-bottom:1px solid #ededed; 
+				vertical-align:top; 
+				align:right; 
+				width:15%;
+				}
+			body, h1, tr, input, label, select { 
+				margin:0px;
+				padding:0px;
+				font-family:"맑은 고딕",돋움;
+				font-size:13px;
+				}
+			#registerForm {
+				display:table;
+				margin:15px auto;
+				border-collapse:collapse;
+				}
+			#registerForm h1 {
+				display:table-caption;
+				font-size:15px;
+				padding:0px;
+				margin-bottom:10px;
+				}
+			#registerForm h1 span {
+				text-align:center;
+				display:block;
+				color:#fff;
+				background-color:#333;
+				padding:7px;
+				margin:0 auto;
+				}
+			#registerForm p {
+				display:table-row;
+				padding:5px;
+				border-bottom:1px solid #B6B6B6;
+				}
+			#registerForm .celStyle {
+				display:table-cell;
+				padding:5px;
+				}
+			#registerForm #userId {
+				width:80px;
+				}
+			#registerForm #email {
+				width:150px;
+				}
+			#registerForm input[type="radio"] {
+			    margin:7px;
+			    cursor:pointer;
+				}
+			#registerForm input[type="text"], #registerForm select {
+				border:1px solid #FF3399;
+				padding:3px;
+				background-color:#efefef;
+				margin:5px;
+				width:130px;
+				}
+			#registerForm input[type="password"] {
+				border:1px solid #FF3399;
+				padding:3px;
+				background-color:#efefef;
+				margin:5px;
+				width:130px;
+				}
+			#registerForm p.btnRow {
+				display:block;
+				text-align:center;
+				position:relative;
+				left:400px;
+				top:2px;
+				border-bottom-style:none;
+				}
+			#btnOriginal {
+				background-color:#fff;
+				border:2px solid #f39;
+				padding:3px 10px;
+				border-radius:20px;
+				cursor:pointer;
+				}
+		    #btnSubmit {
+				background-color:#f39;
+				padding:5px 25px;
+				color:#fff;
+				border:1px solid #f39;
+				border-radius:5px;
+				cursor:pointer;
+				}

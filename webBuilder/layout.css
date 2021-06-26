@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/* Layout */
+
+body#main{
+	background:url(../images/stripe_pattern.png) repeat-x left top #fffcf6;
+	}
+#mainWrapper {
+	width:100%;
+	min-width:1050px;
+	background:url('../images/backGround/backGround_1.jpg') no-repeat center top transparent;
+	}
+#container {
+	position:relative;
+	width:1100px; 
+	height:700px; 
+	margin:0 auto;
+	}
+	
+.tab {width:100%;height:70px;background:url('../images/board/bg_tab_line.gif') no-repaet left 6px transparent;}
+.tab ul { padding-left:10px;}
+.tab li { float:left; margin-right:6px;}
+
+.list {width:100% }
+
+#sidebarNav {
+	display:inline;
+	float:left;
+	width:320px;
+	margin-right:28px;
+	padding:0 0 28px 18px;
+	position:fixed;
+	z-index:10;
+	}
+#sidebarNav ul li a {
+	display:block;
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:center;
+	padding:25px 0px 10px 0px ;
+	border-bottom:1px solid #eee;
+	}
+#sidebarNav ul li a:hover, #sidebarNav ul li a.activeLi {
+	background:url(../images/painting_pink.png) no-repeat center top;
+	}
+#contentsMain {
+	float:right;
+	width:650px;
+	padding-right:80px;
+	padding-top:40px;
+	}
+footer {
+	clear:both;
+	padding:20px 0px 30px 0px;
+	background:url(../images/stripe_pattern.png) repeat-x left bottom;
+	border-top:1px solid #333;
+	}
+footer p {
+	width:960px;
+	position:relative;
+	left:350px;
+	margin:0px auto;
+	padding-bottom:20px;
+	}
+footer p span {
+	display:block;
+	}
+
+article,aside,canvas,details,figcaption,figure, footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}

@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+p, li{
+	font-family: 나눔고딕;
+	font-size: 13px;
+	line-height: normal;
+}	
+h1{
+	font-family:나눔고딕;
+	font-size:26px;
+}
+h2{
+	font-family:나눔고딕;
+	font-size:20px;	
+}
+h3{
+	font-family:나눔고딕;
+	font-size:16px;
+}
+h5{
+	font-family:나눔고딕;
+	font-size:14px;
+}
+#container {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+
+#banner{
+	width:960px;
+	display:block;
+	margin-top: 0;
+	height:200px;
+}
+#navi {
+	height:60px;
+	margin-bottom: 10px; 
+
+}
+.menu{
+	background-color:#303a5d;
+	list-style:none;
+}
+
+.menu ul li {
+	display: list-item;
+	height: auto;
+	float: left;
+}
+.menu a, .menu a:visited {
+	padding: 15px 5px 5px 35px;
+	display: block;
+	font-family:나눔고딕;
+	font-size:15px;
+	color:#fff;;
+	width: 150px; 
+	text-decoration: none;
+
+}
+.menu a:hover, .menu a:active, .menu a:focus {
+	color: #BAB7EC;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#leftSide {
+	float:left;
+	width: 180px;
+}
+#info p{
+	font-size:12px;	
+	line-height:24px;
+}
+#title{
+	margin-left: auto;
+	margin-bottom: auto;
+}
+.heading{
+	width: 160px;
+	height: 200px;
+	text-align:left;
+	padding-left:20px;
+	padding-top:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	box-shadow:2px 2px 2px #333;
+}
+
+#content {
+	float: left;
+	width: 750px;
+	padding-left:8px;
+	border-left:1px dotted #ccc;
+}
+
+#content blockquote{
+	font-family:나눔명조;
+	font-size:24px;
+	line-height:35px;
+	color:#90C;	
+}
+#footer {
+	clear: both;
+}
+.fstyle{
+	color: #eee;
+	background-color: #000000;
+	padding-left: 120px;
+	width: auto;
+	height: 50px;
+	text-align:right;
+}
+.flist{
+	width:200px;
+	padding-right:15px;
+	float:left;	
+}
+.ftitle{
+	width: 190px;
+	background-color: rgba(255,255,255,0.3);
+	color:#fff;
+	padding: 5px;
+}
+.leftBanner
+{
+	text-align:right;
+	margin-right:20px;
+}
+
+.intro{
+	width:200px;
+	margin-right:20px;
+	margin-bottom:10px;
+	float:left;	
+	border: 1px dotted #303a5d;	
+}
+
+.ititle{
+	width:190px;
+	font-family:나눔고딕;
+	font-size:13px;
+	background-color:#E0DDEC;
+	color:#303a5d;
+	font-weight:bold;
+	padding:5px;	
+}
+
+.imain{
+	padding:10px;
+}
+
+.imgcenter{
+	text-align: center;		
+}#container #content form div {
+	text-align: right;
+}
+#container #content form div {
+	text-align: left;
+}

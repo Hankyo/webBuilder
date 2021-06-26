@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+			/* 게시판 목록 양식 테이블 */
+			.Board{
+				background:url(../images/board/board_top_bg.gif);
+				padding-top:10px; 
+				padding-left:10px; 
+				font-weight:bold;  
+				vertical-align:top; 
+				text-align:center;
+				height:28px;
+				}
+			.listBoard{
+				background-color:#FFFFFF; 
+				padding-left:20px; 
+				padding-top:10px; 
+				padding-bottom:10px;  
+				border-bottom:1px solid #B6B6B6; 
+				height:28px;
+				}
+			/* 글쓰기 Form 양식 테이블 */
+			body, h1, tr, input, label, select { 
+				margin:0px;
+				padding:0px;
+				font-family:"맑은 고딕",돋움;
+				font-size:13px;
+				}
+			#boardForm {
+				display:table;
+				margin:15px auto;
+				border-collapse:collapse;
+				}
+			#boardForm h1 {
+				display:table-caption;
+				font-size:15px;
+				padding:0px;
+				margin-bottom:10px;
+				}
+			#boardForm h1 span {
+				text-align:center;
+				display:block;
+				color:#fff;
+				background-color:#333;
+				padding:7px;
+				margin:0 auto;
+				}
+			#boardForm p {
+				display:table-row;
+				padding:5px;
+				border-bottom:1px solid #B6B6B6;
+				}
+			#boardForm .celStyle {
+				display:table-cell;
+				padding:5px;
+				}
+			#boardForm #title {
+				width:530px;
+				}
+			#boardForm table {
+			    background-color:#eeeeff;
+				}
+			#boardForm input[type="radio"] {
+			    margin:7px;
+			    cursor:pointer;
+				}
+			#boardForm input[type="text"], #boardForm select {
+				border:1px solid #FF3399;
+				padding:3px;
+				background-color:#ffffef;
+				margin:5px;
+				width:130px;
+				}
+			#boardForm input[type="password"] {
+				border:1px solid #FF3399;
+				padding:3px;
+				background-color:#ffffef;
+				margin:5px;
+				width:130px;
+				}
+			#boardForm textarea {
+				border:1px solid #FF3399;
+				padding:3px;
+				background-color:#ffffef;
+				margin:5px;
+				width:630px;
+				}
+			#boardForm p.btnRow {
+				display:block;
+				text-align:center;
+				position:relative;
+				left:400px;
+				top:2px;
+				border-bottom-style:none;
+				}
+			#btnOriginal {
+				background-color:#fff;
+				border:2px solid #f39;
+				padding:3px 10px;
+				border-radius:20px;
+				cursor:pointer;
+				}
+		    #btnSubmit {
+				background-color:#f39;
+				padding:5px 25px;
+				color:#fff;
+				border:1px solid #f39;
+				border-radius:5px;
+				cursor:pointer;
+				}
